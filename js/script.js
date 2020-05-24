@@ -23,6 +23,8 @@ var b;
 function fall(){
     f = setInterval(drop,t);
     document.getElementById("smile").innerHTML = ":)";
+    document.getElementById("ball").onclick = "";
+
 }
 
 
