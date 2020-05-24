@@ -22,9 +22,8 @@ var f;
 var b;
 function fall(){
     f = setInterval(drop,t);
-    document.getElementById("ball").onclick = "";
-    document.getElementById("smile").innerHTML = ":))";
-
+    document.getElementById("smile").innerHTML = ":)";
+    document.getElementById("ball").ontouchstart = "";
 }
 
 
